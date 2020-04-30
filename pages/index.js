@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
 import Date from '../components/date';
 
+const name = 'Harry Nguyen';
+
 export default function Home({ allPostsData }) {
 	return (
 		<Layout home>
@@ -25,7 +27,7 @@ export default function Home({ allPostsData }) {
 			</section>
 			<section
 				className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-				<h2 className={utilStyles.headingLg}>Blog</h2>
+				<h2 className={utilStyles.headingLg}>{`${name}'s Blog`}</h2>
 				<ul className={utilStyles.list}>
 					{allPostsData.map(({ id, date, title }) => (
 						<li className={utilStyles.listItem} key={id}>
