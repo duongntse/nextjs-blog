@@ -3,7 +3,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Harry';
+const name = 'Harry Happyness';
 const imgProfile = '/images/harry.jpg';
 export const siteTitle = 'Next.js Sample website';
 
