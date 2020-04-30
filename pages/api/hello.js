@@ -1,3 +1,3 @@
 export default (req, res) => {
-	res.status(200).json({ text: 'hello from Harry' });
+	res.status(200).json({ text: 'hello from Harry Nguyen Pro' });
 };
